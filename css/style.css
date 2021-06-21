@@ -1,0 +1,211 @@
+body { 
+  
+    font-family: 'Montserrat', sans-serif;
+  
+}
+.container { 
+    display: flex;
+    margin: 0 auto;
+}
+.button {  
+    display: inline-block; 
+    border:none; 
+    background-color: #00CED1 ;
+    border-radius: 5px;
+    margin-top: 230px;
+    color: #AFEEEE;
+    padding: 10px 25px;
+    margin-left: 400px;
+    text-decoration: none;
+}
+.button:hover {
+    opacity: 0.5;
+}
+.circle { 
+    height: 50px;
+    width: 50px;
+    position: relative;
+    display: block;
+    background-color: #00CED1;
+    cursor:pointer;
+    border-radius: 50%;
+    margin-top:  -45px;
+    margin-left: 47%;
+}  
+.circle:hover { 
+  opacity: 0.5;  
+}
+.mail { 
+     width: 50px;
+     height:50px;
+}
+.mailtext{ 
+    display: flex;
+    align-items: center;
+    margin-left: 700px;
+    margin-top: -34px;
+    font-size: 14px;
+    color: inherit;
+    text-decoration: none;
+}
+.mailimg { 
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    margin-left: 10px;
+    margin-top: 9px;
+}
+.dynasty {  
+     display: flex;
+     align-items: center;
+     margin-top: 40px;
+     margin-left: 120px;
+}
+.social { 
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+}
+.button-social { 
+    padding: 18px 100px;
+    margin-top: 80px;
+    margin-left: 10px;
+    border-radius: 7px;
+    cursor: pointer;
+    background-color: #0000CD;
+}
+.button-social:hover { 
+     opacity:0.5;
+}
+.vk-link{ 
+    color: #fff;
+    text-decoration: none;
+}
+.button-link { 
+    position: absolute;
+    padding: 18px 100px;
+    background-color: #7FFFD4;
+    margin-left: 450px;
+    bottom: 250px;
+    border-radius: 7px;
+    cursor: pointer;
+    background-color: crimson;
+}
+.button-link:hover { 
+    opacity:0.5;
+}
+.video-link { 
+    color:#fff;
+    text-decoration: none;
+}
+.button-primary { 
+    position: absolute;
+    padding: 18px 100px;
+    border-radius: 7px;
+    cursor: pointer;
+    background-color: #D2691E;
+    margin-left: 900px;
+    top: 334px;
+} 
+.button-primary:hover { 
+    opacity:0.5;
+}
+.insta-link { 
+    color: #fff;
+    text-decoration: none;
+}
+.competitions { 
+    position: absolute;
+    display: inline-block; 
+    align-items: center;
+    border:none;
+    border-radius: 5px; 
+    margin-left: 500px;
+    bottom: 180px;
+    padding: 10px 25px;
+    background-color: #00CED1 ;
+    
+}
+.competitions:hover  { 
+    opacity: 0.5; 
+}
+.schedule { 
+    color: #fff;
+    text-decoration: none;
+}
+.vkimg { 
+     width: 30px;
+     height: 30px;
+}
+.slider{
+    max-width: 70%;
+    position: relative; 
+    margin: auto;
+    left: 170px;
+    height: 300px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 120px;
+}
+/* Картинка мастабируется по отношению к родительскому элементу */
+.slider .item img {
+    object-fit: cover;
+    width: 60%;
+    height: 300px;
+    border: none !important;
+    box-shadow: none !important;
+}
+/* Кнопки вперед и назад */
+.slider .next {
+    position: absolute;
+    margin-left: 600px;
+    bottom: 130px;
+    cursor: pointer;
+    border-radius: 3px 0 0 3px;
+}
+.slider .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+/* Кружочки */
+.slider-dots {
+    position: absolute;
+    left: 470px;
+    text-align: center;
+}
+.slider-dots_item{
+    cursor: pointer;
+    height: 12px;
+    width: 12px;
+    margin: 0 2px;
+    background-color: #ddd;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+.active,
+.slider-dots_item:hover {
+    background-color: #aaa;
+}
+/* Анимация слайдов */
+.slider .item {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+@-webkit-keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
