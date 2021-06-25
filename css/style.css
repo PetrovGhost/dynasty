@@ -124,7 +124,7 @@ body {
 }
 .mail {
   position: absolute;
-  bottom: 190px;
+  bottom: 195px;
   left: 1357px;
   background-color: #00ced1;
   cursor: pointer;
@@ -144,7 +144,7 @@ body {
     align-items: center;
     position: absolute;
     padding: 18px 70px;
-    right: 45px;
+    right: 4px;
   }
   .social {
     display: flex;
@@ -154,24 +154,24 @@ body {
     display: flex;
     align-items: center;
     position: absolute;
-    padding: 13px 89px;
+    padding: 13px 84px;
     bottom: 410px;
-    left: 30px;
+    left: -64px;
   }
   .vk-social {
     position: absolute;
     width: 30px;
     height: 30px;
     top: 6px;
-    left: 46px;
+    left: 44px;
   }
   .button-link {
     display: flex;
     align-items: center;
     position: absolute;
-    padding: 13px 100px;
-    margin-top: px;
-    right: 55px;
+    padding: 13px 94px;
+    margin-top: 20px;
+    right: 35px;
   }
   .youtube-social {
     position: absolute;
@@ -180,28 +180,28 @@ body {
   }
   .button-insta {
     position: absolute;
-    padding: 13px 100px;
+    padding: 13px 94px;
     border-radius: 6px;
     margin-bottom: -70px;
-    left: 114px;
+    left: 25px;
     border: none;
     cursor: pointer;
     background-color: #d2691e;
   }
   .instagram-social {
     top: 5px;
-    left: 54px;
+    left: 42px;
   }
   .tel {
     position: absolute;
-    padding: 13px 50px;
-    left: 30px;
-    margin-top: 20px;
+    padding: 13px 10px;
+    left: 21px;
+    top: 516px;
   }
   .mail {
     position: absolute;
-    padding: 13px 40px;
-    margin-bottom: -27px;
-    left: 280px;
+    padding: 13px 10px;
+    margin-bottom: -83px;
+    left: 217px;
   }
 }
