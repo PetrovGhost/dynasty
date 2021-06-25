@@ -1,284 +1,208 @@
-body { 
+body {
+  font-family: "Montserrat", sans-serif;
+}
+.container {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+}
 
-    font-family: 'Montserrat', sans-serif;
-  
+.competitions {
+  position: absolute;
+  display: inline-block;
+  align-items: center;
+  border: none;
+  cursor: pointer;
+  border-radius: 6px;
+  margin-left: 690px;
+  bottom: 500px;
+  padding: 25px 120px;
+  background-color: #00ced1;
+  color: #fff;
 }
-.container { 
-    display: flex;
-    margin: 0 auto;
+.competitions:hover {
+  opacity: 0.5;
 }
-.button{  
-    display: inline-block; 
-    border:none; 
-    background-color: #00CED1 ;
-    border-radius: 6px;
-    margin-top: 230px;
-    color: #AFEEEE;
-    padding: 10px 25px;
-    margin-left: 400px;
-    text-decoration: none;
+.schedule {
+  position: absolute;
+  bottom: 520px;
+  left: 800px;
+  text-decoration: none;
 }
-.button:hover {
-    opacity: 0.5;
+.dynasty {
+  display: flex;
+  align-items: center;
+  margin-top: 40px;
+  margin-left: 120px;
 }
-.circle { 
-    height: 50px;
-    width: 50px;
-    position: relative;
-    display: block;
-    background-color: #00CED1;
-    cursor:pointer;
-    border-radius: 50%;
-    margin-top:  -45px;
-    margin-left: 47%;
-}  
-.circle:hover { 
-  opacity: 0.5;  
+.social {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
 }
-.mail { 
-     width: 50px;
-     height:50px;
+.button-social {
+  padding: 23px 150px;
+  margin-top: 565px;
+  margin-left: 90px;
+  border-radius: 6px;
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+  background-color: #0000cd;
 }
-.mailtext{ 
+.button-social:hover {
+  opacity: 0.5;
+}
+
+.vk-social {
+  position: absolute;
+  bottom: 350px;
+  left: 180px;
+  width: 40px;
+}
+.button-link {
+  position: absolute;
+  padding: 23px 150px;
+  background-color: #7fffd4;
+  bottom: 345px;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+  text-decoration: none;
+  margin-left: 710px;
+  border-radius: 6px;
+  cursor: pointer;
+  background-color: crimson;
+}
+.button-link:hover {
+  opacity: 0.5;
+}
+
+.youtube-social {
+  position: absolute;
+  top: 16px;
+  left: 90px;
+  width: 30px;
+}
+.button-insta {
+  position: absolute;
+  padding: 23px 150px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+  text-decoration: none;
+  left: 1270px;
+  bottom: 343px;
+  background-color: #d2691e;
+}
+.button-primary:hover {
+  opacity: 0.5;
+}
+
+.instagram-social {
+  position: absolute;
+  top: 15px;
+  left: 90px;
+  width: 30px;
+}
+
+.tel {
+  position: absolute;
+  top: 720px;
+  left: 150px;
+  background-color: #00ced1;
+  cursor: pointer;
+  padding: 25px 80px;
+  border: none;
+  border-radius: 6px;
+  color: #ffff;
+  text-decoration: none;
+}
+.tel:hover {
+  opacity: 0.5;
+}
+.mail {
+  position: absolute;
+  bottom: 190px;
+  left: 1357px;
+  background-color: #00ced1;
+  cursor: pointer;
+  padding: 25px 80px;
+  border: none;
+  border-radius: 6px;
+  color: #ffff;
+  text-decoration: none;
+}
+.mail:hover {
+  opacity: 0.5;
+}
+
+@media (max-width: 768px) {
+  .competitions {
     display: flex;
     align-items: center;
-    margin-left: 700px;
-    margin-top: -34px;
-    font-size: 14px;
-    color: inherit;
-    text-decoration: none;
-}
-.mailimg { 
+    position: absolute;
+    padding: 18px 70px;
+    right: 45px;
+  }
+  .social {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+  }
+  .button-social {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    padding: 13px 89px;
+    bottom: 410px;
+    left: 18px;
+  }
+  .vk-social {
+    position: absolute;
     width: 30px;
     height: 30px;
-    cursor: pointer;
-    margin-left: 10px;
-    margin-top: 9px;
-}
-.dynasty {  
-     display: flex;
-     align-items: center;
-     margin-top: 40px;
-     margin-left: 120px;
-}
-.social { 
+    top: 6px;
+    left: 46px;
+  }
+  .button-link {
     display: flex;
     align-items: center;
-    margin: 0 auto;
-}
-.button-social { 
-    padding: 18px 100px;
-    margin-top: 78px;
-    margin-left: 10px;
-    border-radius: 6px;
-    cursor: pointer;
-    background-color: #0000CD;
-}
-.button-social:hover { 
-     opacity:0.5;
-}
-.vk-link{ 
-    color: #fff;
-    text-decoration: none;
-}
-.button-link { 
     position: absolute;
-    padding: 18px 100px;
-    background-color: #7FFFD4;
-    margin-left: 470px;
-    bottom: 252px;
-    border-radius: 6px;
-    cursor: pointer;
-    background-color: crimson;
-}
-.button-link:hover { 
-    opacity:0.5;
-}
-.video-link { 
-    color:#fff;
-    text-decoration: none;
-}
-.button-primary { 
+    padding: 13px 100px;
+    margin-top: -5px;
+    right: 67px;
+  }
+  .youtube-social {
     position: absolute;
-    padding: 18px 100px;
-    border-radius: 6px;
-    cursor: pointer;
-    background-color: #D2691E;
-    margin-left: 900px;
-    top: 332px;
-} 
-.button-primary:hover { 
-    opacity:0.5;
-}
-.insta-link { 
-    color: #fff;
-    text-decoration: none;
-}
-.competitions { 
-    position: absolute;
-    display: inline-block; 
-    align-items: center;
-    border:none;
-    border-radius: 6px; 
-    margin-left: 490px;
-    bottom: 180px;
-    padding: 10px 50px;
-    background-color: #00CED1 ;
-    
-}
-.competitions:hover  { 
-    opacity: 0.5; 
-}
-.schedule { 
-    color: #fff;
-    text-decoration: none;
-}
-.vk-social { 
-    position: absolute;
-    bottom: 260px;
+    top: 5px;
     left: 50px;
-    width: 40px;
-}
-.youtube-social { 
+  }
+  .button-insta {
     position: absolute;
-    top: 12px;
-    left: 50px;
-    width: 30px;
-}
-.instagram-social {
+    padding: 13px 100px;
+    border-radius: 6px;
+    margin-bottom: -70px;
+    left: 105px;
+    border: none;
+    cursor: pointer;
+    background-color: #d2691e;
+  }
+  .instagram-social {
+    top: 5px;
+    left: 54px;
+  }
+  .tel {
     position: absolute;
-    top: 12px;
-    left: 50px;
-    width: 30px;
-}
-@media(max-width: 667px) { 
-    .container { 
-         margin: 0 auto;
-    }
-    .button-social { 
-         display: flex;
-         align-items: center;
-         padding: 10px 130px;
-         margin-top: 410px;
-         margin-left: 0px;
-        }
-    .button-link {
-     
-         display: flex;
-         align-items: center;
-         padding: 10px 130px;
-         margin-left: 0px ;
-         margin-bottom: -140px;
-    }
-    .button-primary { 
-        padding: 10px 130px;
-        display: flex;
-        align-items: center;
-        margin-left: 0px;
-        margin-top: 255px;
-    }
-
-    .vk-social { 
-        position: absolute;
-        bottom: 208px;
-    }
-    .youtube-social { 
-         margin-top: 2px;
-         
-    }
-    .instagram-social { 
-         margin-top: 1px;
-    }
-    .button { 
-     position: absolute;   
-     top: 450px;
-     right: 200px; 
-     padding: 12px 23px;
-     color: #fff;
-    }
-    .circle { 
-      display: none;
-         
-    }
-    .mailtext {  
-        position: absolute;
-        top: 714px;
-        right: 6px;
-        background-color: #00CED1 ;
-        border-radius: 6px;
-        color: #fff;
-        padding: 12px 10px;
-    }
-    .competitions { 
-       display: flex;
-       align-items: center;
-       margin-bottom: 120px;
-        margin-left: 23px;
-
-    }
-}
-@media(max-width: 736px) { 
-    .container { 
-         margin: 0 auto;
-    }
-    .button-social { 
-         display: flex;
-         align-items: center;
-         padding: 10px 130px;
-         margin-top: 410px;
-         margin-left: 0px;
-        }
-    .button-link {    
-         display: flex;
-         align-items: center;
-         padding: 10px 130px;
-         margin-left: 0px ;
-         margin-bottom: -70px;
-    }
-    .button-primary { 
-        padding: 10px 130px;
-        display: flex;
-        align-items: center;
-        margin-left: 0px;
-        margin-top: 255px;
-    }
-
-    .vk-social { 
-        position: absolute;
-        bottom: 280px;
-    }
-    .youtube-social { 
-         margin-top: 2px;
-         
-    }
-    .instagram-social { 
-         margin-top: 1px;
-    }
-    .button { 
-     position: absolute;   
-     top: 450px;
-     right: 230px; 
-     padding: 12px 23px;
-     color: #fff;
-    }
-    .circle { 
-      display: none;
-         
-    }
-    .mailtext {  
-        position: absolute;
-        top: 714px;
-        right: 6px;
-        background-color: #00CED1 ;
-        border-radius: 6px;
-        color: #fff;
-        padding: 12px 10px;
-    }
-    .competitions { 
-       display: flex;
-       align-items: center;
-       margin-bottom: 180px;
-       margin-left: 45px;
-
-    }
+    padding: 13px 50px;
+    left: 30px;
+    margin-top: 20px;
+  }
+  .mail {
+    position: absolute;
+    padding: 13px 40px;
+    margin-bottom: -27px;
+    left: 280px;
+  }
 }
