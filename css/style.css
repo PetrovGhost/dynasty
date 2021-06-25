@@ -149,7 +149,6 @@ body {
   .social {
     display: flex;
     align-items: center;
-    margin: 0 auto;
   }
   .button-social {
     display: flex;
@@ -157,7 +156,7 @@ body {
     position: absolute;
     padding: 13px 89px;
     bottom: 410px;
-    left: 18px;
+    left: 30px;
   }
   .vk-social {
     position: absolute;
@@ -171,8 +170,8 @@ body {
     align-items: center;
     position: absolute;
     padding: 13px 100px;
-    margin-top: -5px;
-    right: 67px;
+    margin-top: px;
+    right: 55px;
   }
   .youtube-social {
     position: absolute;
@@ -184,7 +183,7 @@ body {
     padding: 13px 100px;
     border-radius: 6px;
     margin-bottom: -70px;
-    left: 105px;
+    left: 114px;
     border: none;
     cursor: pointer;
     background-color: #d2691e;
