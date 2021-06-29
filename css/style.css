@@ -1,5 +1,7 @@
 body {
   font-family: "Montserrat", sans-serif;
+  background-image: url(../img/Пост\ Династия\ 2020\ фон.jpg);
+ 
 }
 .container {
   display: flex;
@@ -10,198 +12,195 @@ body {
 .competitions {
   position: absolute;
   display: inline-block;
-  align-items: center;
-  border: none;
-  cursor: pointer;
-  border-radius: 6px;
-  margin-left: 690px;
-  bottom: 500px;
-  padding: 25px 120px;
-  background-color: #00ced1;
-  color: #fff;
+  margin-left: 550px;
+  margin-top: 330px;
+  width: 25%;
 }
 .competitions:hover {
   opacity: 0.5;
 }
-.schedule {
+.dynasty { 
   position: absolute;
-  bottom: 520px;
-  left: 800px;
-  text-decoration: none;
+  display: inline-block;
+  margin-left: 540px;
+  margin-top: 420px;
+  width: 25%;
 }
-.dynasty {
+.dynasty:hover { 
+  opacity: 0.5;
+}
+.insta {
+  position: absolute;
+  display: inline-block;
+  margin-left: 550px;
+  margin-top: 550px;
+  width: 25%;
+}
+.insta:hover { 
+  opacity: 0.5;
+}
+.vk {
+  position: absolute;
+  display: inline-block;
+  margin-left: 520px;
+  margin-top: 660px;
+  width: 25%;
+}
+.vk:hover { 
+  opacity: 0.5;
+}
+.youtube { 
+  position: absolute;
+  display: inline-block;
+  margin-left: 530px;
+  margin-top: 770px;
+  width: 25%;
+}
+.youtube:hover { 
+  opacity: 0.5;
+}
+.call { 
+  position: absolute;
+  display: inline-block;
+  margin-left: 100px;
+  margin-top: 900px;
+  width: 25%;
+}
+.call:hover { 
+  opacity: 0.5;
+}
+.mail { 
+  position: absolute;
+  display: inline-block;
+  margin-left: 900px;
+  margin-top: 900px;
+  width: 25%;
+}
+.mail:hover { 
+   opacity: 0.5;
+}
+.logo { 
+  position: absolute;
+  margin-left: 600px;
+  width: 200px;
+  height: 200px;
+}
+.page { 
+  position: absolute;
   display: flex;
   align-items: center;
-  margin-top: 40px;
-  margin-left: 120px;
-}
-.social {
-  display: flex;
-  align-items: center;
-  margin: 0 auto;
-}
-.button-social {
-  padding: 23px 150px;
-  margin-top: 565px;
-  margin-left: 90px;
-  border-radius: 6px;
+  margin-top: 200px;
+  margin-left: 470px;
   color: #fff;
-  text-decoration: none;
-  cursor: pointer;
-  background-color: #0000cd;
 }
-.button-social:hover {
-  opacity: 0.5;
-}
-
-.vk-social {
-  position: absolute;
-  bottom: 350px;
-  left: 180px;
-  width: 40px;
-}
-.button-link {
-  position: absolute;
-  padding: 23px 150px;
-  background-color: #7fffd4;
-  bottom: 345px;
-  border: none;
-  cursor: pointer;
-  color: #fff;
-  text-decoration: none;
-  margin-left: 710px;
-  border-radius: 6px;
-  cursor: pointer;
-  background-color: crimson;
-}
-.button-link:hover {
-  opacity: 0.5;
+.text { 
+ position: absolute;
+ color: #fff;
+ font-size: 11px;
+ margin-top: 250px;
+ margin-left: 340px;
+ line-height: 22px; 
 }
 
-.youtube-social {
-  position: absolute;
-  top: 16px;
-  left: 90px;
-  width: 30px;
-}
-.button-insta {
-  position: absolute;
-  padding: 23px 150px;
-  border-radius: 6px;
-  border: none;
-  cursor: pointer;
-  color: #fff;
-  text-decoration: none;
-  left: 1270px;
-  bottom: 343px;
-  background-color: #d2691e;
-}
-.button-primary:hover {
-  opacity: 0.5;
-}
 
-.instagram-social {
-  position: absolute;
-  top: 15px;
-  left: 90px;
-  width: 30px;
-}
+@media (max-width: 1024px) { 
+  .page { 
+    font-size: 22px;
+    margin-right: -884px;
+    margin-top: 190px;
+  }
+    .competitions {
+      position: absolute;
+      display: inline-block; 
+      margin-top: 430px;
+  }
+  .dynasty { 
+     position: absolute;
+     display: inline-block;
+     top: 70px;
+  }
+  .insta { 
+    position: absolute;
+    display: inline-block; 
+    top: 20px;
+  }
+  .vk { 
+    position: absolute;
+    display: inline-block; 
+    top: -8px;
+  }
+  .youtube  {
+    position: absolute;
+    display: inline-block; 
+    top: -45px;
 
-.tel {
-  position: absolute;
-  top: 720px;
-  left: 150px;
-  background-color: #00ced1;
-  cursor: pointer;
-  padding: 25px 80px;
-  border: none;
-  border-radius: 6px;
-  color: #ffff;
-  text-decoration: none;
+  }
+  .text { 
+    margin-left: 470px;
+    margin-top:  230px;
+  }
 }
-.tel:hover {
-  opacity: 0.5;
-}
-.mail {
-  position: absolute;
-  bottom: 195px;
-  left: 1357px;
-  background-color: #00ced1;
-  cursor: pointer;
-  padding: 25px 80px;
-  border: none;
-  border-radius: 6px;
-  color: #ffff;
-  text-decoration: none;
-}
-.mail:hover {
-  opacity: 0.5;
-}
-
-@media (max-width: 768px) {
+@media (max-width: 736px) { 
   .competitions {
-    display: flex;
-    align-items: center;
     position: absolute;
-    padding: 18px 70px;
-    right: 4px;
-  }
-  .social {
-    display: flex;
-    align-items: center;
-  }
-  .button-social {
-    display: flex;
-    align-items: center;
+    display: inline-block;
+    margin-left: 70px;
+    margin-top: 400px;
+    width: 70%;
+}
+  .dynasty {
     position: absolute;
-    padding: 13px 84px;
-    bottom: 410px;
-    left: -64px;
+    display: inline-block;
+    margin-left: 70px;
+    margin-top: 400px;
+    width: 70%;
   }
-  .vk-social {
+  .insta { 
     position: absolute;
-    width: 30px;
-    height: 30px;
-    top: 6px;
-    left: 44px;
+    display: inline-block;
+    margin-left: 80px;
+    margin-top: 550px;
+    width: 70%;
   }
-  .button-link {
-    display: flex;
-    align-items: center;
+  .vk { 
     position: absolute;
-    padding: 13px 94px;
-    margin-top: 20px;
-    right: 35px;
+    display: inline-block;
+    margin-left: 50px;
+    margin-top: 690px;
+    width: 80%;
   }
-  .youtube-social {
+  .youtube { 
     position: absolute;
-    top: 5px;
-    left: 50px;
+    display: inline-block;
+    margin-left: 70px;
+    margin-top: 820px;
+    width: 70%;
   }
-  .button-insta {
+  .call { 
     position: absolute;
-    padding: 13px 94px;
-    border-radius: 6px;
-    margin-bottom: -70px;
-    left: 25px;
-    border: none;
-    cursor: pointer;
-    background-color: #d2691e;
+    display: inline-block;
+    margin-left: 22px;
+    margin-top: 926px;
+    width: 40%;
   }
-  .instagram-social {
-    top: 5px;
-    left: 42px;
-  }
-  .tel {
+  .mail { 
     position: absolute;
-    padding: 13px 10px;
-    left: 21px;
-    top: 516px;
+    display: inline-block;
+    margin-left: 240px;
+    margin-top: 926px;
+    width: 40%;
   }
-  .mail {
-    position: absolute;
-    padding: 13px 10px;
-    margin-bottom: -83px;
-    left: 217px;
+  .logo { 
+     margin-left:120px;
+     font-size: 9px;
+  }
+  .page { 
+    font-size: 14px;
+    margin-left: 90px;
+    margin-top: 190px;
+  }
+  .text { 
+    margin-left: 50px;
+    margin-top:  230px;
   }
 }
