@@ -97,30 +97,30 @@ body {
   }
   .logo {
     position: absolute;
-    margin-left: 120px;
+    margin-left: 140px;
   }
   .figure {
     position: absolute;
     font-size: 15px;
-    margin-left: 80px;
+    margin-left: 100px;
     margin-top: 230px;
   }
   .dynasty {
     position: absolute;
     font-size: 15px;
-    margin-left: 150px;
+    margin-left: 170px;
     margin-top: 250px;
   }
   .school {
     position: absolute;
     font-size: 15px;
-    margin-left: 110px;
+    margin-left: 130px;
     margin-top: 280px;
   }
   .text {
     position: absolute;
     font-size: 15px;
-    margin-left: 30px;
+    margin-left: 50px;
     margin-top: 320px;
   }
   .competitions {
