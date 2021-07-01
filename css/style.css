@@ -1,6 +1,6 @@
 body {
   font-family: "Montserrat", sans-serif;
-  background-image: url(../img/Пост\ Династия\ 2020\ фон.jpg);
+  background-image: url(../img/back1080_1920.png);
   background-repeat: no-repeat;
   background-size: 100%;
   width: 1080px;
@@ -10,12 +10,12 @@ body {
 .logo {
   width: auto;
   height: auto;
-  margin-left: 880px;
+  margin-left: 910px;
   margin-top: 50px;
 }
 .figure {
   position: absolute;
-  margin-left: 630px;
+  margin-left: 670px;
   font-size: 40px;
   color: #fff;
 }
@@ -25,19 +25,19 @@ body {
   text-align: center;
   color: #fff;
   margin-top: 70px;
-  margin-left: 820px;
+  margin-left: 840px;
 }
 .school {
   position: absolute;
   margin-top: 140px;
-  margin-left: 820px;
+  margin-left: 840px;
   font-size: 20px;
   color: #fff;
 }
 .text {
   position: absolute;
   margin-top: 190px;
-  margin-left: 670px;
+  margin-left: 690px;
   color: #fff;
   white-space: pre-line;
   text-align: center;
@@ -45,7 +45,7 @@ body {
 
 .competitions {
   position: absolute;
-  margin-left: 800px;
+  margin-left: 820px;
   margin-top: 340px;
   width: 300px;
 }
@@ -53,122 +53,133 @@ body {
   position: absolute;
   width: 300px;
   margin-top: 470px;
-  margin-left: 800px;
+  margin-left: 820px;
 }
 .vk {
   position: absolute;
   width: 300px;
   margin-top: 600px;
-  margin-left: 800px;
+  margin-left: 820px;
 }
 .youtube {
   position: absolute;
   width: 300px;
   margin-top: 730px;
-  margin-left: 800px;
+  margin-left: 820px;
 }
 .insta {
   position: absolute;
   width: 300px;
   margin-top: 860px;
-  margin-left: 800px;
+  margin-left: 820px;
 }
 .wa {
   position: absolute;
   width: 300px;
   margin-top: 990px;
-  margin-left: 800px;
+  margin-left: 820px;
 }
 .call {
   position: absolute;
   width: 300px;
   margin-top: 1120px;
-  margin-left: 620px;
+  margin-left: 640px;
 }
 .mail {
   position: absolute;
   width: 300px;
   margin-top: 1120px;
-  margin-left: 990px;
+  left: 1000px;
 }
-@media (max-width: 812px) {
+@media (max-width: 667px) {
   body {
-    background-size: 380%;
+    background-size: cover;
+    -moz-background-size: cover;
+    position: fixed;
+  }
+  .header {
+    display: flex;
+    align-items: center;
   }
   .logo {
     position: absolute;
-    margin-left: 120px;
+    margin-left: 170px;
+    margin-top: 150px;
   }
   .figure {
     position: absolute;
     font-size: 15px;
     margin-left: 90px;
-    margin-top: 230px;
+    margin-top: 170px;
   }
   .dynasty {
     position: absolute;
     font-size: 15px;
-    margin-left: 150px;
-    margin-top: 250px;
+    margin-left: 160px;
+    margin-top: 200px;
   }
   .school {
     position: absolute;
     font-size: 15px;
-    margin-left: 90px;
-    margin-top: 280px;
+    margin-left: 110px;
+    margin-top: 230px;
   }
   .text {
     position: absolute;
-    font-size: 15px;
-    margin-left: 30px;
-    margin-top: 320px;
+    font-size: 10px;
+    margin-left: 40px;
+    margin-top: 290px;
+  }
+  .main {
+    display: flex;
+    align-items: center;
   }
   .competitions {
     position: absolute;
-    margin-left: 90px;
-    margin-top: 570px;
-    width: 200px;
+    margin-left: 160px;
+    margin-top: 400px;
+    width: 100px;
   }
   .comands {
     position: absolute;
-    margin-left: 90px;
-    margin-top: 650px;
-    width: 200px;
+    margin-left: 160px;
+    margin-top: 450px;
+    width: 100px;
   }
   .vk {
     position: absolute;
-    margin-left: 90px;
-    margin-top: 730px;
-    width: 200px;
+    margin-left: 160px;
+    top: -100px;
+    width: 100px;
   }
   .youtube {
     position: absolute;
-    margin-left: 90px;
-    width: 200px;
-    margin-top: 810px;
+    margin-left: 160px;
+    top: -180px;
+    width: 100px;
   }
   .insta {
     position: absolute;
-    margin-left: 90px;
-    width: 200px;
-    margin-top: 890px;
+    margin-left: 160px;
+    top: -260px;
+    width: 100px;
   }
   .wa {
     position: absolute;
-    margin-left: 90px;
-    margin-top: 970px;
-    width: 200px;
+    margin-left: 160px;
+    top: -350px;
+    width: 100px;
   }
   .call {
     position: absolute;
-    margin-left: -10px;
-    margin-top: 1050px;
-    width: 200px;
+    margin-left: 100px;
+    top: -440px;
+    width: 100px;
   }
   .mail {
     position: absolute;
-    margin-left: 200px;
-    margin-top: 1050px;
-    width: 200px;
+    left: 230px;
+    top: -440px;
+    width: 100px;
   }
 }
