@@ -1,206 +1,174 @@
 body {
   font-family: "Montserrat", sans-serif;
   background-image: url(../img/Пост\ Династия\ 2020\ фон.jpg);
- 
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 1080px;
+  height: 2500px;
 }
-.container {
-  display: flex;
-  align-items: center;
-  margin: 0 auto;
+
+.logo {
+  width: auto;
+  height: auto;
+  margin-left: 880px;
+  margin-top: 50px;
+}
+.figure {
+  position: absolute;
+  margin-left: 630px;
+  font-size: 40px;
+  color: #fff;
+}
+.dynasty {
+  position: absolute;
+  font-size: 40px;
+  text-align: center;
+  color: #fff;
+  margin-top: 70px;
+  margin-left: 820px;
+}
+.school {
+  position: absolute;
+  margin-top: 140px;
+  margin-left: 820px;
+  font-size: 20px;
+  color: #fff;
+}
+.text {
+  position: absolute;
+  margin-top: 190px;
+  margin-left: 670px;
+  color: #fff;
+  white-space: pre-line;
+  text-align: center;
 }
 
 .competitions {
   position: absolute;
-  display: inline-block;
-  margin-left: 550px;
-  margin-top: 330px;
-  width: 25%;
+  margin-left: 800px;
+  margin-top: 340px;
+  width: 300px;
 }
-.competitions:hover {
-  opacity: 0.5;
-}
-.dynasty { 
+.comands {
   position: absolute;
-  display: inline-block;
-  margin-left: 540px;
-  margin-top: 420px;
-  width: 25%;
-}
-.dynasty:hover { 
-  opacity: 0.5;
-}
-.insta {
-  position: absolute;
-  display: inline-block;
-  margin-left: 550px;
-  margin-top: 550px;
-  width: 25%;
-}
-.insta:hover { 
-  opacity: 0.5;
+  width: 300px;
+  margin-top: 470px;
+  margin-left: 800px;
 }
 .vk {
   position: absolute;
-  display: inline-block;
-  margin-left: 520px;
-  margin-top: 660px;
-  width: 25%;
+  width: 300px;
+  margin-top: 600px;
+  margin-left: 800px;
 }
-.vk:hover { 
-  opacity: 0.5;
-}
-.youtube { 
+.youtube {
   position: absolute;
-  display: inline-block;
-  margin-left: 530px;
-  margin-top: 770px;
-  width: 25%;
+  width: 300px;
+  margin-top: 730px;
+  margin-left: 800px;
 }
-.youtube:hover { 
-  opacity: 0.5;
-}
-.call { 
+.insta {
   position: absolute;
-  display: inline-block;
-  margin-left: 100px;
-  margin-top: 900px;
-  width: 25%;
+  width: 300px;
+  margin-top: 860px;
+  margin-left: 800px;
 }
-.call:hover { 
-  opacity: 0.5;
-}
-.mail { 
+.wa {
   position: absolute;
-  display: inline-block;
-  margin-left: 900px;
-  margin-top: 900px;
-  width: 25%;
+  width: 300px;
+  margin-top: 990px;
+  margin-left: 800px;
 }
-.mail:hover { 
-   opacity: 0.5;
-}
-.logo { 
+.call {
   position: absolute;
-  margin-left: 600px;
-  width: 200px;
-  height: 200px;
+  width: 300px;
+  margin-top: 1120px;
+  margin-left: 620px;
 }
-.page { 
+.mail {
   position: absolute;
-  display: flex;
-  align-items: center;
-  margin-top: 200px;
-  margin-left: 470px;
-  color: #fff;
+  width: 300px;
+  margin-top: 1120px;
+  margin-left: 990px;
 }
-.text { 
- position: absolute;
- color: #fff;
- font-size: 11px;
- margin-top: 250px;
- margin-left: 340px;
- line-height: 22px; 
-}
-
-
-@media (max-width: 1024px) { 
-  .page { 
-    font-size: 22px;
-    margin-right: -884px;
-    margin-top: 190px;
+@media (max-width: 812px) {
+  body {
+    background-size: 380%;
   }
-    .competitions {
-      position: absolute;
-      display: inline-block; 
-      margin-top: 430px;
-  }
-  .dynasty { 
-     position: absolute;
-     display: inline-block;
-     top: 70px;
-  }
-  .insta { 
+  .logo {
     position: absolute;
-    display: inline-block; 
-    top: 20px;
+    margin-left: 120px;
   }
-  .vk { 
+  .figure {
     position: absolute;
-    display: inline-block; 
-    top: -8px;
+    font-size: 15px;
+    margin-left: 80px;
+    margin-top: 230px;
   }
-  .youtube  {
-    position: absolute;
-    display: inline-block; 
-    top: -45px;
-
-  }
-  .text { 
-    margin-left: 470px;
-    margin-top:  230px;
-  }
-}
-@media (max-width: 736px) { 
-  .competitions {
-    position: absolute;
-    display: inline-block;
-    margin-left: 70px;
-    margin-top: 400px;
-    width: 70%;
-}
   .dynasty {
     position: absolute;
-    display: inline-block;
-    margin-left: 70px;
-    margin-top: 400px;
-    width: 70%;
+    font-size: 15px;
+    margin-left: 150px;
+    margin-top: 250px;
   }
-  .insta { 
+  .school {
     position: absolute;
-    display: inline-block;
-    margin-left: 80px;
-    margin-top: 550px;
-    width: 70%;
+    font-size: 15px;
+    margin-left: 110px;
+    margin-top: 280px;
   }
-  .vk { 
+  .text {
     position: absolute;
-    display: inline-block;
-    margin-left: 50px;
-    margin-top: 690px;
-    width: 80%;
+    font-size: 15px;
+    margin-left: 30px;
+    margin-top: 320px;
   }
-  .youtube { 
+  .competitions {
     position: absolute;
-    display: inline-block;
-    margin-left: 70px;
-    margin-top: 820px;
-    width: 70%;
+    margin-left: 100px;
+    margin-top: 570px;
+    width: 200px;
   }
-  .call { 
+  .comands {
     position: absolute;
-    display: inline-block;
-    margin-left: 22px;
-    margin-top: 926px;
-    width: 40%;
+    margin-left: 100px;
+    margin-top: 650px;
+    width: 200px;
   }
-  .mail { 
+  .vk {
     position: absolute;
-    display: inline-block;
-    margin-left: 240px;
-    margin-top: 926px;
-    width: 40%;
+    margin-left: 100px;
+    margin-top: 730px;
+    width: 200px;
   }
-  .logo { 
-     margin-left:120px;
-     font-size: 9px;
+  .youtube {
+    position: absolute;
+    margin-left: 100px;
+    width: 200px;
+    margin-top: 810px;
   }
-  .page { 
-    font-size: 14px;
-    margin-left: 90px;
-    margin-top: 190px;
+  .insta {
+    position: absolute;
+    margin-left: 100px;
+    width: 200px;
+    margin-top: 890px;
   }
-  .text { 
-    margin-left: 50px;
-    margin-top:  230px;
+  .wa {
+    position: absolute;
+    margin-left: 100px;
+    margin-top: 970px;
+    width: 200px;
+  }
+  .call {
+    position: absolute;
+    margin-left: -10px;
+    margin-top: 1050px;
+    width: 200px;
+  }
+  .mail {
+    position: absolute;
+    margin-left: 200px;
+    margin-top: 1050px;
+    width: 200px;
   }
 }
