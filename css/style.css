@@ -97,65 +97,65 @@ body {
   }
   .logo {
     position: absolute;
-    margin-left: 140px;
+    margin-left: 120px;
   }
   .figure {
     position: absolute;
     font-size: 15px;
-    margin-left: 100px;
+    margin-left: 90px;
     margin-top: 230px;
   }
   .dynasty {
     position: absolute;
     font-size: 15px;
-    margin-left: 170px;
+    margin-left: 150px;
     margin-top: 250px;
   }
   .school {
     position: absolute;
     font-size: 15px;
-    margin-left: 130px;
+    margin-left: 90px;
     margin-top: 280px;
   }
   .text {
     position: absolute;
     font-size: 15px;
-    margin-left: 50px;
+    margin-left: 30px;
     margin-top: 320px;
   }
   .competitions {
     position: absolute;
-    margin-left: 100px;
+    margin-left: 90px;
     margin-top: 570px;
     width: 200px;
   }
   .comands {
     position: absolute;
-    margin-left: 100px;
+    margin-left: 90px;
     margin-top: 650px;
     width: 200px;
   }
   .vk {
     position: absolute;
-    margin-left: 100px;
+    margin-left: 90px;
     margin-top: 730px;
     width: 200px;
   }
   .youtube {
     position: absolute;
-    margin-left: 100px;
+    margin-left: 90px;
     width: 200px;
     margin-top: 810px;
   }
   .insta {
     position: absolute;
-    margin-left: 100px;
+    margin-left: 90px;
     width: 200px;
     margin-top: 890px;
   }
   .wa {
     position: absolute;
-    margin-left: 100px;
+    margin-left: 90px;
     margin-top: 970px;
     width: 200px;
   }
