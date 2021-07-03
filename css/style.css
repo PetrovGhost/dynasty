@@ -14,7 +14,7 @@ body {
      display: flex;
      margin: 0 auto;
      text-align: center;
-     margin-left:450px;
+     margin-left: 450px;
      color:#fff;
 }
 .dynasty { 
@@ -165,19 +165,20 @@ body {
     .figure { 
      display: flex;
      text-align: center;
-     font-size: 14px;
-     margin-left: 80px;
+     font-size: 18px;
+     margin-left: 50px;
     }
     .dynasty { 
      display: flex;
      text-align: center;
-     margin-left: 140px;
+     font-size: 18px;
+     margin-left: 00px;
     
     }
     .school {
      display: flex;
      text-align: center;
-     margin-left: 90px;
+     margin-left: 80px;
     }
     .txt { 
         display: flex;
@@ -189,16 +190,23 @@ body {
     .mail { 
       display: flex;
        margin-left: 210px;
+       margin-top: -42px;
     }
     }
 @media (max-width:736px) { 
     .figure { 
-        margin-left: 80px;
+        margin-left: 60px;
     }
     .dynasty { 
-        margin-left: 130px;
+        margin-left: 135px;
+    }
+    .school { 
+        margin-left: 100px;
+        font-size: 14px;
     }
     .mail { 
         margin-left: 200px;
     }
 }
+@media handheld and (orientation:landscape) { 
+    
