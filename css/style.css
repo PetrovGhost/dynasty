@@ -91,33 +91,35 @@ body {
     margin-top: -110px;
     width: 400px;
 }
+
+
 @media (max-width: 812px) { 
     body { 
-     background-image: url(../img/back1080_1920.png);
-     background-repeat: no-repeat;
-     background-size: 200%;
+        background-image: url(../img/back1080_1920.png);
+        background-repeat: no-repeat;
+        background-size: 200%;
+    }  
     
-    }
     .figure { 
         display: flex;
         text-align: center;
         font-size: 18px;
         margin-top: 20px;
-        margin-left: 80px;
+        margin-left: 1000%;
     }
     .dynasty { 
         display: flex;
         text-align: center;
         font-size: 18px;
         margin-top: 0px;
-        margin-left: 150px;
+        margin-left: 500px;
     }
     .school {
         display: flex;
         text-align: center;
         font-size: 16px;
         margin-top: 20px;
-        margin-left: 110px;
+        margin-left: 70px;
     }
     .txt { 
         display: flex;
@@ -126,30 +128,77 @@ body {
         margin-left: 10px;
     }
     .competitions { 
-        width: 200px;
+        margin-bottom: -10px;
+        width: 150px;
     }
     .comands { 
-        width: 200px;   
+        margin-bottom: -20px;
+        width: 150px;   
     }
     .vk { 
-        width: 200px;
+        margin-bottom: -30px;
+        width: 150px;
     }
     .youtube { 
-         width: 200px;
+         width: 150px;
+         margin-bottom: -30px;
     }
     .insta { 
-         width: 200px;
+         width: 150px;
     }
     .wa {
-        width: 200px;
+        margin-top: 10px;
+        width: 150px;
     }
     .call { 
-        margin-left: 0px;
-        width: 200px;
+        margin-left: 10px;
+        margin-top: 120px;
+        width: 150px;
     }
     .mail { 
-        margin-left: 210px;
-        margin-top: -58px;
-        width: 200px;
+        margin-left: 150px;
+        margin-top: -45px;
+        width: 150px;
+    }
+}
+@media (max-width: 667px) { 
+    .figure { 
+     display: flex;
+     text-align: center;
+     font-size: 14px;
+     margin-left: 80px;
+    }
+    .dynasty { 
+     display: flex;
+     text-align: center;
+     margin-left: 140px;
+    
+    }
+    .school {
+     display: flex;
+     text-align: center;
+     margin-left: 90px;
+    }
+    .txt { 
+        display: flex;
+        text-align: center;
+    }
+  .call { 
+     margin-top: 60px;   
+  }
+    .mail { 
+      display: flex;
+       margin-left: 210px;
+    }
+    }
+@media (max-width:736px) { 
+    .figure { 
+        margin-left: 80px;
+    }
+    .dynasty { 
+        margin-left: 120px;
+    }
+    .mail { 
+        margin-left: 200px;
     }
 }
